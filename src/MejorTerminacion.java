@@ -3,8 +3,8 @@ public class MejorTerminacion {
     public static void main(String[] args) {
         String [] decimos = {"98234", "45678", "09784"};
         for (String numero : decimos) {
-            char ultimoCaract = numero.charAt(numero.length() - 1);
-            System.out.println(ultimoCaract);
+            char ultimoNum = numero.charAt(numero.length() - 1);
+            System.out.println(ultimoNum);
         }
 
         Map<Integer, Integer> terminaciones = new HashMap<>();

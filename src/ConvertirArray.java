@@ -1,22 +1,27 @@
-import java.util.*;
+import java.util.ArrayList;
+
 public class ConvertirArray {
     public static void main(String[] args) {
-        ArrayList<String> animales = new ArrayList<>();
-        animales.add("Lobo");
-        animales.add("Pato");
-        animales.add("Tortuga");
-        animales.add("Delfin");
-
-        System.out.println(animales);
-
-        String[] str = new String[animales.size()];
-        for (int i = 0; i < animales.size(); i++) {
-            str[i] = animales.get(i);
+        ArrayList<Integer> numeros = new ArrayList<>();
+        numeros.add(1);
+        numeros.add(2);
+        numeros.add(3);
+        numeros.add(4);
+        numeros.add(5);
+        numeros.add(6);
+        System.out.println(numeros);
+        //Forma1
+        int[] enteros = new int[numeros.size()];
+        for (int i = 0; i < numeros.size(); i++) {
+            enteros[i] = numeros.get(i);
         }
-
-        for (int i = 0; i < str.length; i++){
-            String s = str[i];
-            System.out.println(s);
+        //Forma2
+/*
+        for (int i = 0; i < numeros.size(); i++) {
+            int[] numbers = new int[i];
+        }*/
+        for (int a : numeros){
+            System.out.println(a);
         }
     }
 }

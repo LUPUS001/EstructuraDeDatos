@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Altura{
     public static void main(String[] args) {
+        //OK
         int obtenerNumeroAlumnos = numeroAlumnos();
         ArrayList<Double> alturaAlumnos = leerAlturas(obtenerNumeroAlumnos);
         mostrarResultados(alturaAlumnos, calcularMedia(alturaAlumnos));

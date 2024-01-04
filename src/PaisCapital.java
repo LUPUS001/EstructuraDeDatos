@@ -1,6 +1,7 @@
 import java.util.*;
 public class PaisCapital {
     public static void main(String[] args) {
+        //OK
         Map<String, String> paises = new HashMap<String, String>();
         paises.put("Canada", "Ottawa");
         paises.put("España", "Madrid");
